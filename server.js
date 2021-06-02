@@ -15,7 +15,7 @@ app.use(
   helmet({
     noSniff: true,
     xssFilter: true,
-    noCache: true,
+    nocache: true,
     hidePoweredBy: {
       setTo: "PHP 7.4.3",
     },
