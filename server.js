@@ -22,7 +22,7 @@ app.use(
   })
 );
 
-app.use(nocache);
+app.use(nocache());
 app.use(cors({origin: '*'})); // For FCC Testing Purposes
 
 app.use('/public', express.static(process.cwd() + '/public'));
